@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>coin.png</file>
+        <file>delete.png</file>
+        <file>down.png</file>
+        <file>folder.png</file>
+        <file>karaoke_background.jpg</file>
+        <file>karaoke_icon.png</file>
+        <file>pause.png</file>
+        <file>play.png</file>
+        <file>queue.png</file>
+        <file>settings.png</file>
+        <file>stop.png</file>
+        <file>up.png</file>
+    </qresource>
+</RCC>

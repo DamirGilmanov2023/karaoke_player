@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgb(248,104,226);</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>421</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(80,80,80,200);
+color:#fff;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_up">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: rgb(164,48,237);
+border: solid 1px #72bdf4;
+color: #fff;
+}
+QPushButton:hover{   
+background: rgb(193,121,255);
+border: solid 1px #72bdf4;
+color: #fff;}
+QPushButton:pressed{
+background: rgb(112,3,181);
+border: solid 1px #72bdf4;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/up.png</normaloff>img/up.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_down">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>80</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: rgb(164,48,237);
+border: solid 1px #72bdf4;
+color: #fff;
+}
+QPushButton:hover{   
+background: rgb(193,121,255);
+border: solid 1px #72bdf4;
+color: #fff;}
+QPushButton:pressed{
+background: rgb(112,3,181);
+border: solid 1px #72bdf4;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/down.png</normaloff>img/down.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_del">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>140</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: rgb(164,48,237);
+border: solid 1px #72bdf4;
+color: #fff;
+}
+QPushButton:hover{   
+background: rgb(193,121,255);
+border: solid 1px #72bdf4;
+color: #fff;}
+QPushButton:pressed{
+background: rgb(112,3,181);
+border: solid 1px #72bdf4;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>img/delete.png</normaloff>img/delete.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

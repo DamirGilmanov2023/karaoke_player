@@ -1,0 +1,3 @@
+{
+    "files": ["widget.py","play_widget.ui","form.ui","queue.ui"]
+}
